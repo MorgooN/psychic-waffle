@@ -261,11 +261,19 @@
   outline: none;
 }
 
+/* giving name 'a' to the button 
+    in main so it'll be easier 
+    to reference it in future*/
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: black;
+  color: #fff;
   text-decoration: none;
+}
+
+.main__btn a:hover {
+  color: #131313;
+  transition: 0.5s;
 }
 
 .main__btn::after {
@@ -278,10 +286,6 @@
   background: white;
   transition: 0.5s;
   border-radius: 4px;
-}
-
-.main__btn:hover {
-  color: #fff;
 }
 
 .main__btn:hover:after {
@@ -440,12 +444,21 @@
 .services__card button {
   color: #fff;
   padding: 10px 20px;
+  margin-left: 20px;
   border: none;
   border-radius: 4px;
   background: rgb(236, 165, 32);
   position: absolute;
   top: 440px;
   font-size: 1rem;
+  cursor: pointer;
+}
+
+.services__card button:hover {
+  transform: scale(1.075);
+  background-color: #fff;
+  color: #131313;
+  transition: 0.2s ease-in;
   cursor: pointer;
 }
 
