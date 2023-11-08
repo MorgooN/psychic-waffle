@@ -2,7 +2,8 @@
 Frontend projects for new experience in IT
 
 1. VR-tech company site. Just a slice of work
-   ![VRich](https://github.com/MorgooN/psychic-waffle/assets/54379419/aa3bc62f-1abf-4a8d-97cf-118f33cd4e9f)
+   ![редмиап](https://github.com/MorgooN/psychic-waffle/assets/54379419/64bbec39-f7cd-40b4-b4bf-4c3da6cbb34c)
+
 
 
 
